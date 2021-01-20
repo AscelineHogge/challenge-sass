@@ -1,0 +1,10 @@
+@mixin box-shadow {
+    -webkit-box-shadow: 10px 10px 15px -4px $grey-light;
+    -moz-box-shadow: 10px 10px 15px -4px $grey-light;
+    box-shadow: 10px 10px 15px -4px $grey-light;
+}
+
+@mixin padding-main{
+    padding-top: 0;
+    padding-bottom: 0;
+}
